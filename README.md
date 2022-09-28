@@ -12,7 +12,7 @@ Old users will also remove after a certain period of time automatically.
 
 ## Future Data
 The **Future Data** is what we get from a emitted request and it gets a data from the DB and stores it in Cache, which will later become **Current Data**. 
-_IF_ made any _**CUD**_ calls, the system will emit another request to update the record in the cache for that certain user.
+_IF_ made any _**CUD**_(Create, Update, Delete) calls, the system will emit another request to update the record in the cache for that certain user.
 
 
 ## Raw Diagram
